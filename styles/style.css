@@ -19,13 +19,14 @@
     max-width: 1400px;
     margin: 0 auto;
     /* ****trial***** */
-    padding: 20px 50px ;
+    padding: 20px 50px;
 }
 
 .nav-brand-container {
     display: flex;
     width: 50%;
     /* border: 2px solid purple; */
+    padding-left: 100px;
 }
 
 .nav-brand-container p {
@@ -40,6 +41,7 @@
 
 .nav-brand-container img {
     width: 110px;
+    height: 50px;
     object-fit: cover;
     margin-right: 15px;
 }
@@ -64,18 +66,106 @@
 .active-btn {
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
-    padding:15px 20px;
+    padding: 15px 20px;
 }
 
-.nav-icon1,.nav-icon2 
-{
+.nav-icon1,
+.nav-icon2 {
     margin-left: 10px;
 }
-.nav-icon1 
-{
+
+.nav-icon1 {
     color: red;
 }
-.nav-icon2 
-{
+
+.nav-icon2 {
     color: black;
+}
+
+/* navbar style ends */
+
+
+
+/* banner style */
+.banner {
+    /* border: 2px solid red; */
+    min-height: 500px;
+    max-width: 1400px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.banner-content-container {
+    /* border: 2px solid green; */
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.banner-content-container h3 {
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.banner-content-container h1 {
+    font-size: 5.9rem;
+    font-weight: 800;
+}
+
+.banner-content-container h1 
+{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.banner-content-container p {
+    color: #534C64;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.banner-content-container span i {
+    color: #FF42A5;
+    padding-right: 5px;
+}
+
+.banner-content-container .btn-primary {
+    padding: 20px 40px;
+    border-radius: 3rem;
+    border: 0;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    box-shadow: 4px 4px 5px gray;
+    /* ****** */
+    margin-bottom: 20px;
+}
+
+.btn1 {
+
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+}
+
+.btn2 {
+
+    background: #4EC5F7;
+}
+
+.banner-img-container {
+    /* border: 2px solid purple; */
+    width: 50%;
+}
+
+.banner-img-container img 
+{
+    width: 100%;
+    height: 100%;
 }

@@ -42,6 +42,7 @@
 
     .nav-brand-container {
         width: 100%;
+        padding-left: 0;
     }
 
     .nav-list-container {
@@ -62,5 +63,20 @@
     .nav-icon1,
     .nav-icon2 {
         margin-left: 2px;
+    }
+
+    /* banner  */
+    .banner {
+        
+        flex-direction: column-reverse;
+    }
+    .banner-content-container
+    {
+        width: 100%;
+        padding: 50px;
+    }
+    .banner-img-container
+    {
+        width: 100%;
     }
 }
