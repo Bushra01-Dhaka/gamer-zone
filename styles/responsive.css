@@ -35,6 +35,13 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
+    /* play game */
+    .play-game-content-container h2 {
+        font-size: 2.5rem;
+    }
+
+
+
 }
 
 /* small devices */
@@ -91,8 +98,72 @@
         gap: 10px;
     }
 
-    .online-game-cards .card-outer-text
-    {
-         width: 50%;
+    .online-game-cards .card-outer-text {
+        width: 50%;
     }
+
+
+
+    /* play game  */
+    .play-game {
+
+        flex-direction: column-reverse;
+        /* gap: 50px; */
+    }
+
+    .play-game-img-container {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .play-game-img-container img {
+        height: 100%;
+        width: 80%;
+    }
+
+    .play-game-lil-box {
+        height: 200px;
+        width: 100%;
+    }
+
+    .play-game-lil-box img {
+        width: 150px;
+        height: 200px;
+        object-fit: cover;
+        bottom: 150px;
+    }
+
+    .play-game-content-container {
+        width: 100%;
+        text-align: center;
+    }
+
+    .play-game-content-container p {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    /* paly-station section */
+    .play-station {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+       
+    }
+
+    .single-game 
+    {
+        gap: 5px;
+    }
+
+    .single-game img {
+        width: 40px;
+        height: 40px;
+        object-fit: cover;
+    }
+    .single-game p 
+    {
+        font-size: .8rem;
+    }
+
+
 }
