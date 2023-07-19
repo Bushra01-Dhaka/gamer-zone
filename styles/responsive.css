@@ -6,8 +6,18 @@
         flex-direction: column;
     }
 
+    .trial 
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     .nav-brand-container {
         width: 100%;
+        margin: 0 auto;
+        padding-left: 0;
+      
     }
 
     .nav-list-container {
@@ -29,6 +39,42 @@
     .nav-icon2 {
         margin-left: 2px;
     }
+
+     /* banner  */
+     .banner {
+
+        flex-direction: column-reverse;
+    }
+
+    .banner-content-container {
+        width: 100%;
+        padding: 50px;
+    }
+
+    .banner-img-container {
+        width: 100%;
+    }
+
+    
+
+     /* gamer section */
+
+     .gamer {
+        flex-direction: column;
+    }
+
+    .gamer-img-container {
+        width: 100%;
+    }
+
+    .gamer-content-container {
+        width: 100%;
+        text-align: center;
+    }
+
+
+
+
 
     /* online games */
     .online-game-cards-container {
@@ -91,6 +137,28 @@
     .banner-img-container {
         width: 100%;
     }
+
+    
+    /* gamer section */
+
+    .gamer {
+        flex-direction: column;
+    }
+
+    .gamer-img-container {
+        width: 100%;
+    }
+
+    .gamer-content-container {
+        width: 100%;
+        text-align: center;
+    }
+
+
+
+
+
+
 
     /* online games */
     .online-game-cards-container {
@@ -164,6 +232,57 @@
     {
         font-size: .8rem;
     }
+
+
+    /* footer section */
+    .about-items {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        width: 90%;
+        margin: 0 auto;
+        padding: 40px 0 40px;
+        text-align: center;
+    }
+
+    .about-items p {
+        font-size: .8rem;
+        font-weight: 600;
+    }
+
+    .about-icons {
+        grid-template-columns: repeat(3, 1fr);
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .about-icons a 
+    {
+       font-size: 1.5rem;
+       margin-bottom: 15px;
+
+    }
+
+    .about-more-text {
+        grid-template-columns: repeat(2, 1fr);
+        width: 90%;
+        margin: 0 auto;
+        padding: 40px 0 5px;
+        text-align: center;
+    }
+    .about-more-text p 
+    {
+        margin-bottom: 10px;
+    }
+
+    .about-more-text p , .about-copy-right p small{
+        font-size: .5rem;
+        color: rgba(255, 255, 255, 0.60);
+        text-align: center;
+
+    }
+    
+
 
 
 }
