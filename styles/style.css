@@ -78,6 +78,12 @@
     background: rgba(11, 2, 35, 0.10);
     padding: 15px 20px;
 }
+.active-btn:hover 
+{
+    border: 2px solid #F948B2;
+    transition: border 2s ease;
+    background-color: white;
+}
 
 .nav-icon1,
 .nav-icon2 {
@@ -106,7 +112,7 @@
     align-items: center;
     background-image: url("../images/Group\ 14.png");
     background-position: left;
-    /* background-size: cover; */
+    background-size: cover;
     background-repeat: no-repeat;
 
 }
