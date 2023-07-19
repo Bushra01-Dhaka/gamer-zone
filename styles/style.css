@@ -497,12 +497,18 @@
 
 
 /* footer style */
+
+.footer-footer
+{
+    background: #0B0223;
+}
+
 footer {
     /* border: 3px solid red; */
     min-height: 400px;
     max-width: 1400px;
     margin: 150px auto 0;
-    background: #0B0223;
+    /* background: #0B0223; */
     color: white;
     display: flex;
     justify-content: center;
